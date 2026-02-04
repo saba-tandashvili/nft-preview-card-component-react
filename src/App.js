@@ -11,22 +11,22 @@ function App() {
 			<div className="banner">
 				<img src={equi} alt="" className="equi" />
 				<div>
-					<img src={view} className="view" />
+					<img src={view} alt="" className="view" />
 				</div>
 			</div>
-			<a className="title" href="#">
+			<p className="title">
 				Equilibrium #3429
-			</a>
+			</p>
 			<p className="description">
 				Our Equilibrium collection promotes balance and calm.
 			</p>
 			<div className="group-4">
 				<div className="left">
-					<img src={eth} height="18px" />
+					<img src={eth} alt="" height="18px" />
 					<p className="caption">0.041 ETH</p>
 				</div>
 				<div className="right">
-					<img src={clock} height="16px" />
+					<img src={clock} alt="" height="16px" />
 					<p className="time-left">3 days left</p>
 				</div>
 			</div>
@@ -35,9 +35,9 @@ function App() {
 				<img src={avatar} alt="" className="avatar" />
 				<span>
 					Creation of{" "}
-					<a className="author-link" href="#">
+					<p className="author-link">
 						Jules Wyvern
-					</a>
+					</p>
 				</span>
 			</div>
 		</div>
